@@ -1,0 +1,20 @@
+[
+  {
+    "id": "08542862-c9df-44ab-8d4a-9a9119bda1d4",
+    "name": "Shader Menu",
+    "entries": [
+      {
+        "key": "iris.keybind.shaderPackSelection",
+        "title": "Shaderpack Selection Screen"
+      },
+      {
+        "key": "iris.keybind.reload",
+        "title": "Reload Shaders"
+      },
+      {
+        "key": "iris.keybind.toggleShaders",
+        "title": "Toggle Shaders"
+      }
+    ]
+  }
+]

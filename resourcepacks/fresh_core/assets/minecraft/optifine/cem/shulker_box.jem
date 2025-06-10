@@ -1,0 +1,124 @@
+{
+	"credit": "Created by FreshLX for Fresh Animations",
+	"textureSize": [256, 256],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-8, 0, -8, 16, 8, 16],
+					"uvNorth": [64, 176, 128, 208],
+					"uvEast": [0, 176, 64, 208],
+					"uvSouth": [192, 176, 256, 208],
+					"uvWest": [128, 176, 192, 208],
+					"uvUp": [128, 176, 64, 112],
+					"uvDown": [192, 112, 128, 176]
+				},
+				{
+					"coordinates": [-8, 4, -8, 16, 0, 16],
+					"uvUp": [192, 64, 128, 0]
+				},
+				{
+					"coordinates": [-7, 1, -7, 14, 7, 14],
+					"uvNorth": [68, 176, 124, 204],
+					"uvEast": [4, 176, 60, 204],
+					"uvSouth": [196, 176, 252, 204],
+					"uvWest": [132, 176, 188, 204],
+					"uvUp": [124, 172, 68, 116],
+					"uvDown": [188, 116, 132, 172]
+				},
+				{
+					"coordinates": [7, 4, -4, 1, 4, 8],
+					"uvNorth": [172, 176, 176, 192],
+					"uvSouth": [144, 176, 148, 192]
+				},
+				{
+					"coordinates": [-8, 4, -4, 1, 4, 8],
+					"uvNorth": [16, 176, 20, 192],
+					"uvSouth": [44, 176, 48, 192]
+				},
+				{
+					"coordinates": [-4, 4, -8, 8, 4, 1],
+					"uvEast": [208, 176, 212, 192],
+					"uvWest": [236, 176, 240, 192]
+				},
+				{
+					"coordinates": [-4, 4, 7, 8, 4, 1],
+					"uvEast": [108, 176, 112, 192],
+					"uvWest": [80, 176, 84, 192]
+				}
+			],
+			"submodels": [
+				{
+					"id": "lid2",
+					"invertAxis": "xy",
+					"translate": [0, 2, 0],
+					"boxes": [
+						{
+							"coordinates": [-8, 2, -8, 16, 12, 16],
+							"uvNorth": [64, 64, 128, 112],
+							"uvEast": [0, 64, 64, 112],
+							"uvSouth": [192, 64, 256, 112],
+							"uvWest": [128, 64, 192, 112],
+							"uvUp": [128, 64, 64, 0],
+							"uvDown": [192, 0, 128, 64]
+						},
+						{
+							"coordinates": [-8, 6, -8, 16, 0, 16],
+							"uvDown": [64, 112, 128, 176]
+						},
+						{
+							"coordinates": [-7, 2, -7, 14, 11, 14],
+							"uvNorth": [68, 68, 124, 112],
+							"uvEast": [4, 68, 60, 112],
+							"uvSouth": [196, 68, 252, 112],
+							"uvWest": [132, 68, 188, 112],
+							"uvUp": [124, 60, 68, 4],
+							"uvDown": [188, 4, 132, 60]
+						},
+						{
+							"coordinates": [7, 2, 4, 1, 4, -8],
+							"uvNorth": [12, 96, 16, 112],
+							"uvSouth": [48, 96, 52, 112]
+						},
+						{
+							"coordinates": [-8, 2, 4, 1, 4, -8],
+							"uvNorth": [176, 96, 180, 112],
+							"uvSouth": [140, 96, 144, 112]
+						},
+						{
+							"coordinates": [4, 2, -8, -8, 4, 1],
+							"uvEast": [112, 96, 116, 112],
+							"uvWest": [76, 96, 80, 112]
+						},
+						{
+							"coordinates": [4, 2, 7, -8, 4, 1],
+							"uvEast": [204, 96, 208, 112],
+							"uvWest": [240, 96, 244, 112]
+						}
+					]
+				},
+				{
+					"id": "Created_by_FreshLX_for_Fresh_Animations",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"lid2.ty": "-2   -abs(sin(((lid.ty-24)/8)*pi/2) )*8   +sin(((lid.ty-24)/8)*pi)*2*(0.5-0.5*cos(((lid.ty-24)/8)*pi))*0   +sin(random(id)*pi*4 +time/11)/2 *((lid.ty-24)/8)",
+					"lid2.ry": "torad( 180*(0.5-0.5*cos( clamp(-(lid.ty-24) -1, 0, 8 )/7*pi)) )"
+				}
+			]
+		},
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

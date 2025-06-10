@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Fixes Fresh Animations compat with mods\u00A74■ 1.9.2 BETA\u00A7r\n■ By Twink",
+        "pack_format": 39,
+        "supported_formats": {"min_inclusive": 15, "max_inclusive": 99}
+    }
+}

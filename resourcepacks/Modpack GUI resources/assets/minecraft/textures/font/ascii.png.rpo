@@ -1,0 +1,5 @@
+{
+    "conditions": "!use_custom_font",
+    "fallback": "assets/minecraft/textures/font/ascii_custom.png"
+}
+

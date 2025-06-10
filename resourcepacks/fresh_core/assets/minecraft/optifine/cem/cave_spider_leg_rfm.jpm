@@ -1,0 +1,37 @@
+{
+	"texture": "textures/entity/spider/cave_spider_parts",
+	"textureSize": [64, 32],
+	"credit": "Made with Blockbench | Created_by_FreshLX_for_Fresh_Animations",
+	"submodels": [
+		{
+			"id": "cube",
+			"rotate": [0.33165, -5.57893, -29.90699],
+			"boxes": [
+				{
+					"coordinates": [-14.9729, -9.81277, -0.71718, 11, 2, 2],
+					"uvNorth": [13, 2, 2, 4],
+					"uvEast": [15, 2, 13, 4],
+					"uvSouth": [26, 2, 15, 4],
+					"uvWest": [2, 2, 0, 4],
+					"uvUp": [2, 2, 13, 0],
+					"uvDown": [13, 0, 24, 2]
+				}
+			]
+		},
+		{
+			"id": "cube",
+			"rotate": [-5.57902, -0.33008, 60.12525],
+			"boxes": [
+				{
+					"coordinates": [-9.81277, 1.9729, -0.71718, 12, 2, 2],
+					"uvNorth": [14, 6, 2, 8],
+					"uvEast": [16, 6, 14, 8],
+					"uvSouth": [28, 6, 16, 8],
+					"uvWest": [2, 6, 0, 8],
+					"uvUp": [2, 6, 14, 4],
+					"uvDown": [14, 4, 26, 6]
+				}
+			]
+		}
+	]
+}

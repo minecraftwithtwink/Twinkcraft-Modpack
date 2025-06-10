@@ -1,0 +1,189 @@
+{
+	"credit": "Created by FreshLX for Fresh Animations",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "base_left",
+			"id": "base_left",
+			"invertAxis": "xy",
+			"translate": [0, 0, -4.675],
+			"rotate": [-180, 0, 0],
+			"submodels": [
+				{
+					"id": "Created_by_FreshLX_for_Fresh_Animations",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				},
+				{
+					"id": "back_left",
+					"invertAxis": "xy",
+					"translate": [-15, 0, 2.35],
+					"submodels": [
+						{
+							"id": "front_left",
+							"invertAxis": "xy",
+							"translate": [30, 0, 14],
+							"boxes": [
+								{"coordinates": [-15, -10, -14, 15, 10, 14], "textureOffset": [0, 19]}
+							],
+							"submodels": [
+								{
+									"id": "lid2_left",
+									"invertAxis": "xy",
+									"translate": [-15, -9, -14],
+									"rotate": [-180, 0, 0],
+									"submodels": [
+										{
+											"id": "latch_left",
+											"invertAxis": "xy",
+											"translate": [0, 2, -14],
+											"rotate": [-180, 0, 0],
+											"boxes": [
+												{"coordinates": [0, 0, 0, 1, 4, 1], "textureOffset": [0, 0]}
+											]
+										},
+										{
+											"id": "bone_left",
+											"invertAxis": "xy",
+											"translate": [0, 0, -14],
+											"rotate": [180, 0, 0],
+											"boxes": [
+												{"coordinates": [0, -5, -14, 15, 5, 14], "textureOffset": [0, 0]}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"base_left.tx": "16",
+					"base_left.ty": "clamp(-sin(lid_left.rx*pi*2), 0, 2)*0",
+					"base_left.tz": "8",
+					"back_left.rx": "pi  +clamp(torad( 5) -sin(lid_left.rx*pi*1.25)/7, torad(-45), 0)*clamp(-lid_left.rx, 0, 1)",
+					"front_left.rx": "    clamp(torad(-5) -sin(lid_left.rx*pi*1.25)/5, 0, torad( 45))*clamp(-lid_left.rx, 0, 1)",
+					"lid2_left.rx": " pi +clamp( sin(lid_left.rx*1.1)*1.9 +torad(30), torad(-100), 0)",
+					"latch_left.rx": "pi +clamp(lid_left.rx, torad(-20), 0)",
+					"latch_left.rz": "    clamp( sin(lid_left.rx*pi), -torad(60), 0)/4*0",
+					"latch_left.ty": "-2 +clamp(lid_left.rx*12, -1, 0)"
+				}
+			]
+		},
+		{
+			"part": "base_right",
+			"id": "base_right",
+			"invertAxis": "xy",
+			"translate": [0, 0, -4.675],
+			"rotate": [-180, 0, 0],
+			"submodels": [
+				{
+					"id": "back_right",
+					"invertAxis": "xy",
+					"translate": [-15, 0, 2.35],
+					"submodels": [
+						{
+							"id": "front_right",
+							"invertAxis": "xy",
+							"translate": [30, 0, 14],
+							"boxes": [
+								{"coordinates": [-30, -10, -14, 15, 10, 14], "textureOffset": [0, 19]}
+							],
+							"submodels": [
+								{
+									"id": "lid2_right",
+									"invertAxis": "xy",
+									"translate": [-15, -9, -14],
+									"rotate": [-180, 0, 0],
+									"submodels": [
+										{
+											"id": "latch_right",
+											"invertAxis": "xy",
+											"translate": [0, 2, -14],
+											"rotate": [-180, 0, 0],
+											"boxes": [
+												{"coordinates": [-1, 0, 0, 1, 4, 1], "textureOffset": [0, 0]}
+											]
+										},
+										{
+											"id": "bone_right",
+											"invertAxis": "xy",
+											"translate": [0, 0, -14],
+											"rotate": [180, 0, 0],
+											"boxes": [
+												{"coordinates": [-15, -5, -14, 15, 5, 14], "textureOffset": [0, 0]}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"base_right.tx": "0",
+					"base_right.ty": "clamp(-sin(lid_right.rx*pi*2), 0, 2)*0",
+					"base_right.tz": "8",
+					"back_right.rx": "pi  +clamp(torad( 5) -sin(lid_right.rx*pi*1.25)/7, torad(-45), 0)*clamp(-lid_right.rx, 0, 1)",
+					"front_right.rx": "    clamp(torad(-5) -sin(lid_right.rx*pi*1.25)/5, 0, torad( 45))*clamp(-lid_right.rx, 0, 1)",
+					"lid2_right.rx": " pi +clamp( sin(lid_right.rx*1.1)*1.9 +torad(30), torad(-100), 0)",
+					"latch_right.rx": "pi +clamp(lid_right.rx, torad(-20), 0)",
+					"latch_right.rz": "    clamp( sin(lid_right.rx*pi), -torad(60), 0)/4*0",
+					"latch_right.ty": "-2 +clamp(lid_right.rx*12, -1, 0)"
+				}
+			]
+		},
+		{
+			"part": "lid_left",
+			"id": "lid_left",
+			"invertAxis": "xy",
+			"translate": [-16, -9, -7],
+			"rotate": [-180, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "lid_right",
+			"id": "lid_right",
+			"invertAxis": "xy",
+			"translate": [0, -9, -7],
+			"rotate": [-180, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "knob_left",
+			"id": "knob_left",
+			"invertAxis": "xy",
+			"translate": [-16, -8, -8],
+			"rotate": [-180, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "knob_right",
+			"id": "knob_right",
+			"invertAxis": "xy",
+			"translate": [0, -8, -8],
+			"rotate": [-180, 0, 0],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		}
+	]
+}

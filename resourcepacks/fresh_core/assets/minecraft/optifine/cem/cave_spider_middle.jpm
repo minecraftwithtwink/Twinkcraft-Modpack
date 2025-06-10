@@ -1,0 +1,16 @@
+{
+	"texture": "textures/entity/spider/cave_spider_parts",
+	"textureSize": [64, 32],
+	"credit": "Made with Blockbench | Created_by_FreshLX_for_Fresh_Animations",
+	"boxes": [
+		{
+			"coordinates": [-3.5, -3, -3, 7, 6, 6],
+			"uvNorth": [6, 14, 13, 20],
+			"uvEast": [0, 14, 6, 20],
+			"uvSouth": [19, 14, 26, 20],
+			"uvWest": [13, 14, 19, 20],
+			"uvUp": [13, 14, 6, 8],
+			"uvDown": [20, 8, 13, 14]
+		}
+	]
+}

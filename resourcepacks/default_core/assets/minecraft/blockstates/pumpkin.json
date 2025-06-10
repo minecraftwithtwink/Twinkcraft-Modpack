@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "": [	
+	 {
+      "model": "minecraft:block/pumpkin"
+     },
+	 {
+      "model": "minecraft:block/pumpkin1"
+     },
+	 {
+      "model": "minecraft:block/pumpkin2"
+     },
+	 {
+      "model": "minecraft:block/pumpkin3"
+     },
+        {
+      "model": "minecraft:block/pumpkin4"
+     },
+	 {
+      "model": "minecraft:block/pumpkin5"
+     },
+ 	 {
+      "model": "minecraft:block/pumpkin6"
+     }, 	{
+      "model": "minecraft:block/pumpkin7"
+     },          {
+      "model": "minecraft:block/pumpkin8"
+     } ]
+  }
+}

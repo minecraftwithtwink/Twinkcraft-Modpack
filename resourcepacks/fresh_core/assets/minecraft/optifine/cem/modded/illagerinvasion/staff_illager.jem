@@ -1,0 +1,122 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, -26, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [-1, 23, -6, 2, 4, 2], "textureOffset": [24, 0]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [-4, 24, -4.3, 8, 10, 8], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [-4, 0, -1.35, 4, 12, 4], "textureOffset": [0, 22]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [40, 46]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 46]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [0, 0, -1.35, 4, 12, 4], "textureOffset": [0, 22]}
+			]
+		},
+		{
+			"part": "root",
+			"id": "root",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"scale": 1
+		},
+		{
+			"part": "hat",
+			"id": "hat",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [-4, 22, -4.3, 8, 12, 8], "textureOffset": [32, 0], "sizeAdd": 0.45}
+			]
+		},
+		{
+			"part": "staff",
+			"id": "staff",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [-6, -1.1, -9.5, 2, 28, 2], "textureOffset": [110, 0]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"scale": 1,
+			"texture": "textures/entity/firecaller.png",
+			"textureSize": [128, 64],
+			"boxes": [
+				{"coordinates": [-4, 12, -3, 8, 12, 6], "textureOffset": [16, 20]},
+				{"coordinates": [-4, 6, -3, 8, 18, 6], "textureOffset": [0, 38], "sizeAdd": 0.5}
+			]
+		}
+	]
+}

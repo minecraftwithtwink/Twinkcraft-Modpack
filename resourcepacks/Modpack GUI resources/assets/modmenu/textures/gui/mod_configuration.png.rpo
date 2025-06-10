@@ -1,0 +1,5 @@
+{
+    "condition": "!dark_mode",
+    "fallback": "assets/modmenu/textures/gui/mod_configuration_dark_mode.png"
+}
+

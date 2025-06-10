@@ -1,0 +1,279 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -16, 4],
+			"scale": 1,
+			"submodels": [
+				{
+					"id": "Created_by_FreshLX_for_Fresh_Animations",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"var.hy": "clamp(head_yaw,-90,90)",
+					"var.r": "random(id)*pi*4",
+					"var.t": "(time*pi*2)/6",
+					"var.ls": "     limb_swing/if(is_child, 1.8, 1)*if(is_ridden, 0.3, 0.8)",
+					"var.ls_walk": "limb_swing/if(is_child, 1.8, 1)*if(is_ridden, 0.6, 1.2)",
+					"var.b": "   var.r+ var.t/if(is_child, 3, 6)",
+					"var.swim": "var.r+ var.t/if(is_child, 7, 10)*pi",
+					"var.run": " clamp(if(limb_speed>=if(is_child, 0.7, 0.7), min(20, var.run  +0.1 *frame_time*20), max(0, var.run  -0.2 *frame_time*20)), 0, 1)",
+					"var.walk": " clamp(1-var.run , 0, 1)",
+					"var.float": "clamp(if(!is_on_ground&&!is_in_water&&!is_riding, min(if(is_ridden, 2, 20), var.float +0.1 *frame_time*20), max(0, var.float -0.2 *frame_time*20)), 0, 1)",
+					"var.land": " clamp(1-var.float, 0, 1)",
+					"var.float1": "var.r+ (var.t+limb_swing)/if(is_child, 15, 20)*pi",
+					"var.float2": "var.r+ (var.t+limb_swing)/if(is_child, 20, 25)*pi",
+					"var.float3": "var.r+ (var.t+limb_swing)*if(is_child, 1.5, if(is_ridden, if(limb_speed>=0.7, 0.3, 0.5), 1.2))",
+					"var.eatA": "clamp(if(rule_index==3 && between(cos(var.r+var.t/210)*10, -5, 5) || rule_index==2 && between(cos(var.r+var.t/360)*10, -2, 0) && head_pitch==0 && limb_speed<0.3, min(20, var.eatA +0.3 *frame_time*20), max(0, var.eatA -0.3 *frame_time*20) ), 0, 1)",
+					"var.eat": "(0.5-0.5*cos( var.eatA*pi ))*var.land"
+				},
+				{
+					"head2.rx": "torad(head_pitch)/1.5*(1-var.eat) +((torad(15)*limb_speed +sin(var.ls*2)/10*limb_speed)*var.run +(torad(5)*limb_speed +sin(var.ls_walk*2)/10*limb_speed)*var.walk)*var.land +(torad(30) -sin(var.float1)/8)*var.float -(sin(var.b)/50) +(torad(80) -abs(sin(var.r/2+var.t/2)/4 -cos(var.r/2+var.t/2)/3))*var.eat",
+					"head2.ry": "torad(var.hy)/1.5 +clamp(if(head_pitch<0, -cos(var.r+var.t/16)*4*clamp(-9.25 +sin(var.r+var.t/64)*10, 0, 1), 0), -0.3, 0.3)",
+					"head2.rz": "(-sin(torad(90)+var.float2)/8)*var.float +((-sin(var.ls)/15*limb_speed)*var.run +(-sin(var.ls_walk)/15*limb_speed)*var.walk )*var.land",
+					"head2.ty": "-16 +if(is_child, 2, 0) +torad(head_pitch)*(1-var.eat) +cos(var.b)/7 +(if(is_child, -1, 3) -abs(sin(var.r/2+var.t/2) -cos(var.r/2+var.t/2)/2))*var.eat",
+					"head2.tz": "-4 +if(is_in_water, 0, cos(var.ls_walk*2 -sin(var.ls_walk*2 )/2)*2*limb_speed)*var.walk +var.eat/2",
+					"head2.sx": "if(is_child, 2, 1)",
+					"head2.sy": "head2.sx",
+					"head2.sz": "head2.sx",
+					"body.rx": "(sin(          var.float1)/10)*var.float +((sin(torad(135)+var.ls*2)/14 +torad(-10))*limb_speed*var.run +(sin(torad(135)+var.ls_walk*2)/14 +torad(5))*limb_speed*var.walk)*var.land +sin(var.b)/50 +torad(head_pitch)/3*(1-var.eat) +torad(if(is_child, 10, 25))*var.eat",
+					"body.rz": "(sin(torad(90)+var.float2)/10)*var.float +((sin(           var.ls  )/15            )*limb_speed*var.run +(sin(           var.ls_walk  )/15          )*limb_speed*var.walk)*var.land",
+					"body.ry": "head2.ry/6",
+					"body.tx": "if(is_ridden, 0, sin(          var.float2))*var.float +((sin(torad( 90)+var.ls )/3)*limb_speed*var.run +(sin(torad( 90)+var.ls_walk )/3)*limb_speed*var.walk )*var.land",
+					"body.tz": "if(is_ridden, 0, sin(torad(90)+var.float1))*var.float",
+					"body.ty": "if(is_ridden, 0, is_riding, if(is_child, 2.5, 3.5), (-1 -sin(torad(-90)+var.ls*2)/2)*limb_speed*var.run +(-sin(torad(-90)+var.ls_walk*2)/1.5)*limb_speed*var.walk -sin(torad(45)+var.b)/8)*var.land +16.3"
+				},
+				{
+					"right_wing2.rx": "torad(if(!is_on_ground&&!is_in_water&&!is_riding, -5, 90)) +if(is_child, 0, (sin(torad(90)+var.ls*2)/2)*var.run )*var.land*if(is_ridden, 0.1, 1) +(sin(torad(90)+var.float3)/2)*var.float",
+					"left_wing2.rx": " torad(if(!is_on_ground&&!is_in_water&&!is_riding, -5, 90)) +if(is_child, 0, (sin(torad(90)+var.ls*2)/2)*var.run )*var.land*if(is_ridden, 0.1, 1) +(sin(torad(90)+var.float3)/2)*var.float",
+					"right_wing2.ry": "torad( 5) -sin(torad( 45)+var.b)/50",
+					"left_wing2.ry": " torad(-5) +sin(torad( 45)+var.b)/50",
+					"right_wing2.rz": "if(is_child, torad(100)*limb_speed +sin(var.ls_walk*2)/2*limb_speed, (torad(90) +sin(var.ls*2)*1.2)*var.run)*var.land*if(is_ridden, 0.1, 1) +(torad(90) +sin(var.float3)*1.2)*var.float",
+					"left_wing2.rz": "-if(is_child, torad(100)*limb_speed +sin(var.ls_walk*2)/2*limb_speed, (torad(90) +sin(var.ls*2)*1.2)*var.run)*var.land*if(is_ridden, 0.1, 1) -(torad(90) +sin(var.float3)*1.2)*var.float",
+					"right_wing2.ty": "(2.5 -13) -if(!is_on_ground&&!is_in_water&&!is_riding, 1.5, 0)",
+					"left_wing2.ty": " (2.5 -13) -if(!is_on_ground&&!is_in_water&&!is_riding, 1.5, 0)",
+					"right_tail_feather2.rx": "torad(-90) +torad(10)*limb_speed +( cos(var.ls)/4 *limb_speed)*var.run +(-cos(var.ls*2)/3 *limb_speed)*var.walk +if(!is_on_ground&&is_in_water, torad(10) -sin(var.swim)/8, 0) +sin(var.b)/80",
+					"right_tail_feather2.ry": "( cos(var.ls)/10 *limb_speed)*var.run +(sin(torad(-45)+var.ls)/3*limb_speed)*var.walk +torad(var.hy)/12*clamp(1-limb_speed, 0, 1)",
+					"right_tail_feather2.rz": "torad(15)",
+					"middle_tail_feather2.rx": "torad(-90) +torad(10)*limb_speed +( cos(var.ls)/4 *limb_speed)*var.run +(-cos(var.ls*2)/3 *limb_speed)*var.walk +if(!is_on_ground&&is_in_water, torad(10) -sin(var.swim)/8, 0) +sin(var.b)/80",
+					"middle_tail_feather2.ry": "( cos(var.ls)/10 *limb_speed)*var.run +(sin(torad(-45)+var.ls)/3*limb_speed)*var.walk +torad(var.hy)/12*clamp(1-limb_speed, 0, 1)",
+					"left_tail_feather2.rx": "torad(-90) +torad(10)*limb_speed +( cos(var.ls)/4 *limb_speed)*var.run +(-cos(var.ls*2)/3 *limb_speed)*var.walk +if(!is_on_ground&&is_in_water, torad(10) -sin(var.swim)/8, 0) +sin(var.b)/80",
+					"left_tail_feather2.ry": "( cos(var.ls)/10 *limb_speed)*var.run +(sin(torad(-45)+var.ls)/3*limb_speed)*var.walk +torad(var.hy)/12*clamp(1-limb_speed, 0, 1)",
+					"left_tail_feather2.rz": "torad(-15)"
+				},
+				{
+					"right_leg.rx": "(torad(-45) +torad(60)*limb_speed +sin(torad( 0)+var.float1)/if(is_ridden&&!is_on_ground&&!is_riding&&limb_speed>=0.7, 9, 3))*var.float +if(is_in_water||(is_ridden&&!is_on_ground&&!is_riding&&limb_speed>=0.6), torad(if(!is_in_water, 25, 55)) +sin(var.swim)/3, +(( sin(var.ls)*0.7*limb_speed +sin(var.ls)/6)*var.run +( asin(sin(var.ls_walk))/1.8*clamp(limb_speed*3, 0.2, 1))*var.walk )*var.land ) +cos(var.b)/40",
+					"left_leg.rx": " (torad(-45) +torad(60)*limb_speed +sin(torad(90)+var.float1)/if(is_ridden&&!is_on_ground&&!is_riding&&limb_speed>=0.7, 9, 3))*var.float +if(is_in_water||(is_ridden&&!is_on_ground&&!is_riding&&limb_speed>=0.6), torad(if(!is_in_water, 25, 55)) -sin(var.swim)/3, +((-sin(var.ls)*0.7*limb_speed -sin(var.ls)/6)*var.run +(-asin(sin(var.ls_walk))/1.8*clamp(limb_speed*3, 0.2, 1))*var.walk )*var.land ) +cos(var.b)/40",
+					"right_leg.ry": "torad( 10)*(1-limb_speed) +torad( 5) +if(is_in_water||(is_ridden&&!is_on_ground&&!is_riding&&limb_speed>=0.7), torad(-30), 0)",
+					"left_leg.ry": " torad(-10)*(1-limb_speed) +torad(-5) +if(is_in_water||(is_ridden&&!is_on_ground&&!is_riding&&limb_speed>=0.7), torad( 30), 0)",
+					"right_leg.tx": "-1.5 +if(is_ridden, 0, sin(var.float2))*var.float +((sin(torad(90)+var.ls)/3*limb_speed)*var.run +(sin(torad(90)+var.ls_walk)/3*clamp(limb_speed*3, 0, 1))*var.walk -sin(torad(90)+var.b)/20)*var.land +if(is_in_water,  0.5, 0)",
+					"left_leg.tx": "  1.5 +if(is_ridden, 0, sin(var.float2))*var.float +((sin(torad(90)+var.ls)/3*limb_speed)*var.run +(sin(torad(90)+var.ls_walk)/3*clamp(limb_speed*3, 0, 1))*var.walk +sin(torad(90)+var.b)/20)*var.land +if(is_in_water, -0.5, 0)",
+					"right_leg.ty": "16 +if(is_in_water, -1 +cos(var.swim)/1.5, clamp((-1.5 +cos(var.ls)*limb_speed)*var.run +( cos(var.ls_walk)*2*clamp(limb_speed*3, 0, 1))*var.walk, -4, 0)*var.land +(-2*limb_speed)*var.float) +if(is_ridden, 0, is_riding, if(is_child, -2, 0), 0)",
+					"left_leg.ty": " 16 +if(is_in_water, -1 -cos(var.swim)/1.5, clamp((-1.5 -cos(var.ls)*limb_speed)*var.run +(-cos(var.ls_walk)*2*clamp(limb_speed*3, 0, 1))*var.walk, -4, 0)*var.land +(-2*limb_speed)*var.float) +if(is_ridden, 0, is_riding, if(is_child, -2, 0), 0)",
+					"right_leg.tz": "1 +if(is_ridden, 0, sin(torad(90)+var.float1))*var.float +(sin(torad(-90)+var.b)/8)*var.land +if(is_in_water, -2, 0)",
+					"left_leg.tz": " 1 +if(is_ridden, 0, sin(torad(90)+var.float1))*var.float +(sin(torad(-90)+var.b)/8)*var.land +if(is_in_water, -2, 0)"
+				},
+				{
+					"jaw2.rx": "((sin(var.ls*2)/4)*limb_speed*var.run -(sin(var.ls_walk*2)/4)*limb_speed*var.walk)*var.land -clamp(-head2.rx/2 +(sin(var.float1)/5)*var.float, torad(-90), 0) +(cos(var.r+var.t)/3)*var.eat"
+				},
+				{
+					"head_part.rx": "head2.rx",
+					"head_part.ry": "head2.ry",
+					"head_part.rz": "head2.rz",
+					"head_part.tx": "head2.tx",
+					"head_part.ty": "head2.ty +8",
+					"head_part.tz": "head2.tz",
+					"head_part.sx": "head2.sx",
+					"head_part.sy": "head2.sy",
+					"head_part.sz": "head2.sz",
+					"right_wing_part.rx": "right_wing2.rx",
+					"right_wing_part.ry": "right_wing2.ry",
+					"right_wing_part.rz": "right_wing2.rz",
+					"right_wing_part.tx": "right_wing2.tx",
+					"right_wing_part.ty": "right_wing2.ty +8",
+					"right_wing_part.tz": "right_wing2.tz",
+					"left_wing_part.rx": "left_wing2.rx",
+					"left_wing_part.ry": "left_wing2.ry",
+					"left_wing_part.rz": "left_wing2.rz",
+					"left_wing_part.tx": "left_wing2.tx",
+					"left_wing_part.ty": "left_wing2.ty +8",
+					"left_wing_part.tz": "left_wing2.tz"
+				}
+			]
+		},
+		{
+			"part": "middle_tail_feather",
+			"id": "middle_tail_feather",
+			"invertAxis": "xy",
+			"translate": [0, -6.5, -1],
+			"scale": 1
+		},
+		{
+			"part": "jaw",
+			"id": "jaw",
+			"invertAxis": "xy",
+			"translate": [0, -16, 4],
+			"scale": 1
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -8, -1],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-2.99, 0, 0, 2, 9, 2], "textureOffset": [46, 21], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "left_tail_feather",
+			"id": "left_tail_feather",
+			"invertAxis": "xy",
+			"translate": [0, -6.5, -1],
+			"scale": 1
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -8, -1],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [0.99, 0, 0, 2, 9, 2], "textureOffset": [54, 21], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-3.001, -11, -3],
+			"scale": 1
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [3.001, -11, -3],
+			"scale": 1
+		},
+		{
+			"part": "root",
+			"id": "root",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"scale": 1
+		},
+		{
+			"part": "neck",
+			"id": "neck",
+			"invertAxis": "xy",
+			"translate": [0, -16, 4],
+			"scale": 1
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -8, 0],
+			"scale": 1,
+			"submodels": [
+				{
+					"id": "rotation",
+					"invertAxis": "xy",
+					"translate": [0, 8, 0],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-3, -5, 0, 6, 8, 5], "textureOffset": [0, 0], "sizeAdd": 0.5}
+					],
+					"submodels": [
+						{
+							"id": "middle_tail_feather2",
+							"invertAxis": "xy",
+							"translate": [0, 0.4999, -1.48886],
+							"rotate": [90, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, 4, 4.98886, 2, 1, 5], "textureOffset": [14, 26], "sizeAdd": 0.5}
+							]
+						},
+						{
+							"id": "left_tail_feather2",
+							"invertAxis": "xy",
+							"translate": [0, 0.4999, -1.48886],
+							"rotate": [90, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, 4, 4.98886, 2, 1, 5], "textureOffset": [28, 26], "sizeAdd": 0.5}
+							]
+						},
+						{
+							"id": "right_tail_feather2",
+							"invertAxis": "xy",
+							"translate": [0, 0.4999, -1.48886],
+							"rotate": [90, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, 4, 4.98886, 2, 1, 5], "textureOffset": [0, 26], "sizeAdd": 0.5}
+							]
+						}
+					]
+				},
+				{
+					"id": "left_wing2",
+					"invertAxis": "xy",
+					"translate": [-3.001, 11, -2],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-1, -7, -2, 1, 8, 4], "textureOffset": [30, 0], "sizeAdd": 0.5}
+					]
+				},
+				{
+					"id": "right_wing2",
+					"invertAxis": "xy",
+					"translate": [3.001, 11, -2],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [0, -7, -2, 1, 8, 4], "textureOffset": [40, 0], "sizeAdd": 0.5}
+					]
+				},
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 16, -4],
+					"boxes": [
+						{"coordinates": [-2, 0, -6, 4, 4, 8], "textureOffset": [0, 13], "sizeAdd": 0.5}
+					],
+					"submodels": [
+						{
+							"id": "jaw2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-2, 0, -6, 4, 1, 8], "textureOffset": [24, 13], "sizeAdd": 0.5}
+							]
+						},
+						{
+							"id": "neck2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, -6, -1, 2, 6, 2], "textureOffset": [22, 0], "sizeAdd": 0.5}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_tail_feather",
+			"id": "right_tail_feather",
+			"invertAxis": "xy",
+			"translate": [0, -6.5, -1],
+			"scale": 1
+		}
+	]
+}

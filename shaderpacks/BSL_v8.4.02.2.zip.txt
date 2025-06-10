@@ -1,0 +1,10 @@
+#Tue Apr 15 22:49:45 IRST 2025
+CLOUDS=3
+LIGHT_SHAFT=false
+OUTLINE=4
+SHADOW_COLOR=false
+TOON_LIGHTMAP=true
+WATER_CAUSTICS=true
+WATER_PIXEL=32
+shadowDistance=192.0
+shadowMapResolution=1536
