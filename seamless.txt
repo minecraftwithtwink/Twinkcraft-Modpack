@@ -1,0 +1,1 @@
+This file makes sure the seamless default resource pack is disabled for you. You probably want to delete this file.
