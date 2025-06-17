@@ -1,0 +1,7 @@
+{
+  "config.ridehud.display_mode": "config.ridehud.display_mode.max",
+  "config.ridehud.display_text": false,
+  "config.ridehud.bar_offset": -42,
+  "config.ridehud.heart_offset": -200,
+  "config.ridehud.open_gui": []
+}

@@ -1,0 +1,46 @@
+{
+	"enableBlockingWithSword": true,
+	"swordParryTicks": 4,
+	// % of damage TAKEN (not reduced) after blocking melee attack: the higher this value, the more damage player takes when blocking
+	"swordBlockMeleeDamageTaken": 50,
+	// % of damage TAKEN (not reduced) after blocking projectile: the higher this value, the more damage player takes when blocking
+	"swordBlockArrowDamageTaken": 90,
+	"swordParryKnockbackStrength": 6.0,
+	/* List of status effects that can be applied to attacker in the following pattern: 
+	   'StatusEffect;duration;amplifier;chance;enchantmentModifier;StatusEffect;duration;amplifier;chance;enchantmentModifier' 
+	   chance: 1.0 = 100% 
+	   enchantmentModifier: 0.4 = 40% longer duration per Parry enchantment level
+	*/
+	"swordParryEffects": "minecraft:slowness;100;1;1.0;0.3;frycparry:disarmed;45;1;1.0;0.12",
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -5, cooldown will be: valueBasedOnAttackSpeed * 5) 
+	*/
+	"cooldownAfterInterruptingSwordBlockAction": -2.0,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterSwordParryAction": -1.0,
+	/* Values above 0 describe number of ticks item will be disabled for 
+	   When this value is below zero, cooldown is based on attack speed and the value is multiplier 
+	   (For example, if this value is set to -0.5, cooldown will be: valueBasedOnAttackSpeed * 0.5) 
+	*/
+	"cooldownAfterAttack": -0.8999999761581421,
+	"shouldStopUsingSwordAfterBlockOrParry": true,
+	"maxUseTime": 7200,
+	/* Parry ticks start counting AFTER block delay 
+	   For example, when block delay is 5, and parry ticks is 2, 6th and 7th tick counts as parry
+	*/
+	"blockDelay": 0,
+	/* When this value is below 0, explosions can't be blocked 
+	   0 means no delay (but normal block delay is still taken into account) 
+	   If normal block delay is higher than this value (and this value is higher than -1), then this value does nothing 
+	   If normal block delay is 0 and this value is 5, first 5 ticks of blocking grants 80% less protection from explosions
+	*/
+	"explosionBlockDelay": -1,
+	/* % of damage TAKEN (not reduced) after blocking explosion: the higher this value, the more damage player takes when blocking 
+	   This option doesn't do anything unless explosionBlockDelay is above -1
+	*/
+	"explosionBlockDamageTaken": 100
+}

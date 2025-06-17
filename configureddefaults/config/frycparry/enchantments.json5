@@ -1,0 +1,10 @@
+{
+	// Set it to 0 to make shield unenchantable
+	"shieldEnchantability": 12,
+	/* Increases amplifier of parry effects by this value when item has Parry II 
+	   If you want to strengthen only some of the effects, decrease amplifier of the effect you don't want to be strengthened: 
+	   For example, if this option is set to 2, and parrying applies instant damage I, setting instant damage's amplifier to -1 will  
+	   prevent parry enchantment from increasing the amplifier (still instant damage I will be applied)
+	*/
+	"parryEnchantmentAmplifierIncreaseOnMaxLevel": 0
+}

@@ -1,0 +1,6 @@
+{
+	// Knockback strength is multiplied by this value for PvP
+	"parryKnockbackStrengthForPlayersMultiplier": 0.25,
+	// Disarm duration is multiplied by this value for mobs
+	"parryDisarmDurationForMobsMultiplier": 0.3499999940395355
+}
