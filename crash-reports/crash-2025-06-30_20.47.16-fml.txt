@@ -1,0 +1,95 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2025-06-30 20:47:16
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: georenouveau --
+Details:
+	Mod file: /C:/Users/RATSTAR/AppData/Roaming/ModrinthApp/profiles/TwinkCraft Beta/mods/GeOre_Nouveau-1.21.1-0.5.4.jar
+	Failure message: Mod georenouveau requires ars_nouveau 5.8.3 or above
+		Currently, ars_nouveau is not installed
+		
+	Mod version: 0.5.4
+	Mod issues URL: https://github.com/Mrbysco/GeoreNouveau/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: reliquified_ars_nouveau --
+Details:
+	Mod file: /C:/Users/RATSTAR/AppData/Roaming/ModrinthApp/profiles/TwinkCraft Beta/mods/reliquified_ars_nouveau-1.21.1-0.6.jar
+	Failure message: Mod reliquified_ars_nouveau requires ars_nouveau 5.4.1 or above
+		Currently, ars_nouveau is not installed
+		
+	Mod version: 0.6
+	Mod issues URL: https://discord.gg/pHren9yxzW
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.6, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 508023264 bytes (484 MiB) / 1686110208 bytes (1608 MiB) up to 13421772800 bytes (12800 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 5800H with Radeon Graphics         
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 4096.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.7652
+	Graphics card #1 name: AMD Radeon(TM) Graphics
+	Graphics card #1 vendor: Advanced Micro Devices, Inc.
+	Graphics card #1 VRAM (MiB): 512.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 31.0.21923.1000
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 36254.89
+	Virtual memory used (MiB): 22586.40
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 502.50
+	Space in storage for jna.tmpdir (MiB): available: 348897.34, total: 671243.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 348897.34, total: 671243.00
+	Space in storage for io.netty.native.workdir (MiB): available: 348897.34, total: 671243.00
+	Space in storage for java.io.tmpdir (MiB): available: 348897.34, total: 671243.00
+	Space in storage for workdir (MiB): available: 348897.34, total: 671243.00
+	JVM Flags: 2 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx12800M
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.39.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.39.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.39.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.9.0
+		Configured Defaults@21.1.3
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		neoforge-21.1.175-universal.jar                   |NeoForge                      |neoforge                      |21.1.175            |Manifest: NOSIGNATURE
