@@ -11,6 +11,12 @@ const HEAD_MOBS = [
 // Remove skull/head items from specific mobs on spawn
 EntityEvents.spawned(event => {
     const entity = event.entity;
+
+    // Ignore Creeper Overhaul mobs
+    if (entity.type?.id && entity.type.id.includes('creeperoverhaul:')) {
+        return;
+    }
+
     if (!HEAD_MOBS.includes(entity.type)) return;
 
     const head = entity.getEquipment('head') || entity.getArmor(3);
@@ -25,6 +31,11 @@ EntityEvents.spawned(event => {
 // Remove any passengers riding specific mobs
 EntityEvents.spawned(event => {
     const mob = event.entity;
+
+    // Ignore Creeper Overhaul mobs
+    if (mob.type?.id && mob.type.id.includes('creeperoverhaul:')) {
+        return;
+    }
 
     if (!HEAD_MOBS.includes(mob.type)) return;
     const passengers = mob.getPassengers();
