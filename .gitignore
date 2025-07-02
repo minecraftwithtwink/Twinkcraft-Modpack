@@ -1,7 +1,9 @@
 .mixin.out/
 /config/
 controllable_natives/
+crash-reports/
 /defaultconfigs/
+debug/
 downloads/
 /data/
 kiwipacks/
