@@ -1,6 +1,9 @@
 {
 	"disableMod": false,
 	"disabledBiomes": [
+		"*:the_nether",
+		"biomesoplenty:crystalline_chasm",
+		"gardens_of_the_dead:soulblight_forest",
 		"minecraft:nether_wastes",
 		"minecraft:crimson_forest",
 		"minecraft:warped_forest",
@@ -19,12 +22,12 @@
 	"fogEndTransitionSpeed": 0.005,
 	"darknessTransitionSpeed": 0.005,
 	"fogColorTransitionSpeed": 0.025,
-	"startMultiplierTransitionSpeed": 0.0075,
-	"endMultiplierTransitionSpeed": 0.0075,
+	"startMultiplierTransitionSpeed": 0.007,
+	"endMultiplierTransitionSpeed": 0.007,
 	"disableMoonPhaseColorTransition": false,
 	"newMoonColor": -16777216,
 	"disableSunsetFog": false,
 	"enableHighAltitudeFog": true,
-	"prioritizePolytoneFogColors": true,
+	"prioritizePolytoneFogColors": false,
 	"disableWhenIrisActive": false
 }

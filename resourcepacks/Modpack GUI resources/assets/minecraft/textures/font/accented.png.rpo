@@ -1,5 +1,0 @@
-{
-    "conditions": "!use_custom_font",
-    "fallback": "assets/minecraft/textures/font/accented_custom.png"
-}
-

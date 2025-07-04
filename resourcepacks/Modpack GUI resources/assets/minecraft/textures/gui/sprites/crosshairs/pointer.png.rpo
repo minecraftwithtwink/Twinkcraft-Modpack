@@ -1,4 +1,0 @@
-{
-  "condition": "crosshair_style.pointer",
-  "fallback":  "assets/minecraft/textures/gui/sprites/crosshairs/hand.png"
-}

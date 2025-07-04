@@ -1,4 +1,0 @@
-{
-  "condition": "crosshair_style.circle_big&!rainbow_xp",
-  "fallback": "assets/minecraft/textures/gui/crosshairs/circle_big_rxp.png"
-}

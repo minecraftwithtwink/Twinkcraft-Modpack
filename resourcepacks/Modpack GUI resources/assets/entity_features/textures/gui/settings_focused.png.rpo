@@ -1,4 +1,0 @@
-{
-    "condition": "!dark_mode",
-    "fallback": "assets/entity_features/textures/gui/settings_focused_dark_mode.png"
-}

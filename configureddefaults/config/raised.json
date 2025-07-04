@@ -1,55 +1,887 @@
 {
   "layers": {
-    "hotbar": {
-      "x": 0,
-      "y": 9,
-      "position": "TOP",
-      "sync": "NONE"
+    "aether:aether_portal_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "aether:aether_portal_overlay"
     },
-    "chat": {
-      "x": 0,
-      "y": 0,
-      "position": "BOTTOM",
-      "sync": "NONE"
+    "aether:hammer_cooldown": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "aether:hammer_cooldown"
     },
-    "bossbar": {
-      "x": 0,
-      "y": 0,
-      "position": "TOP",
-      "sync": "NONE"
+    "aether:inebriation_vignette": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "aether:inebriation_vignette"
     },
-    "sidebar": {
-      "x": 0,
-      "y": 0,
-      "position": "RIGHT",
-      "sync": "NONE"
+    "aether:moa_jumps": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "aether:moa_jumps"
     },
-    "effects": {
-      "x": 0,
-      "y": 0,
-      "position": "TOP_RIGHT",
-      "sync": "NONE"
+    "aether:remedy_vignette": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "aether:remedy_vignette"
     },
-    "players": {
-      "x": 0,
-      "y": 0,
-      "position": "TOP",
-      "sync": "NONE"
+    "aether:shield_of_repulsion_vignette": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "aether:shield_of_repulsion_vignette"
     },
-    "toasts": {
-      "x": 0,
-      "y": 0,
-      "position": "TOP_RIGHT",
-      "sync": "NONE"
+    "aether:silver_life_shard_hearts": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "aether:silver_life_shard_hearts"
     },
-    "other": {
-      "x": 0,
-      "y": 0,
-      "position": "BOTTOM",
-      "sync": "NONE"
+    "appleskin:exhaustion_level": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "appleskin:exhaustion_level"
+    },
+    "appleskin:food_offset": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "appleskin:food_offset"
+    },
+    "appleskin:health_offset": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "appleskin:health_offset"
+    },
+    "appleskin:health_restored": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "appleskin:health_restored"
+    },
+    "appleskin:hunger_restored": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "appleskin:hunger_restored"
+    },
+    "appleskin:saturation_level": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "appleskin:saturation_level"
+    },
+    "ars_nouveau:mana_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ars_nouveau:mana_hud"
+    },
+    "ars_nouveau:scry_camera": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ars_nouveau:scry_camera"
+    },
+    "ars_nouveau:spell_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ars_nouveau:spell_hud"
+    },
+    "ars_nouveau:tooltip": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ars_nouveau:tooltip"
+    },
+    "artifacts:artifact_cooldowns": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "artifacts:artifact_cooldowns"
+    },
+    "artifacts:helium_flamingo_charge": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "artifacts:helium_flamingo_charge"
+    },
+    "biomeswevegone:textures/misc/palepumpkinblur.png": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "biomeswevegone:textures/misc/palepumpkinblur.png"
+    },
+    "create:blueprint": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:blueprint"
+    },
+    "create:goggle_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:goggle_info"
+    },
+    "create:linked_controller": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:linked_controller"
+    },
+    "create:remaining_air": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:remaining_air"
+    },
+    "create:schematic": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:schematic"
+    },
+    "create:toolbox": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:toolbox"
+    },
+    "create:track_placement": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:track_placement"
+    },
+    "create:train_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:train_hud"
+    },
+    "create:value_settings": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:value_settings"
+    },
+    "deep_aether:stratus": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "deep_aether:stratus"
+    },
+    "enderscape:debug": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "enderscape:debug"
+    },
+    "enderscape:mirror_screen": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "enderscape:mirror_screen"
+    },
+    "enderscape:nebulite_tool": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "enderscape:nebulite_tool"
+    },
+    "enderscape:stare_screen": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "enderscape:stare_screen"
+    },
+    "explorerscompass:explorers_compass": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "explorerscompass:explorers_compass"
+    },
+    "farmersdelight:comfort": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "farmersdelight:comfort"
+    },
+    "farmersdelight:food_offset": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "farmersdelight:food_offset"
+    },
+    "farmersdelight:health_offset": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "farmersdelight:health_offset"
+    },
+    "farmersdelight:nourishment": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "farmersdelight:nourishment"
+    },
+    "geore:geore_spyglass": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "geore:geore_spyglass"
+    },
+    "hammerlib:tooltip_engine": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "hammerlib:tooltip_engine"
+    },
+    "homebound:homebound_bind_home_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "homebound:homebound_bind_home_bar"
+    },
+    "homebound:homebound_warp_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "homebound:homebound_warp_bar"
+    },
+    "improvableskills:ontop_effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "improvableskills:ontop_effects"
+    },
+    "irons_spellbooks:cast_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:cast_bar"
+    },
+    "irons_spellbooks:mana_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:mana_overlay"
+    },
+    "irons_spellbooks:recast_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:recast_bar"
+    },
+    "irons_spellbooks:screen_effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:screen_effects"
+    },
+    "irons_spellbooks:screen_tooltip": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:screen_tooltip"
+    },
+    "irons_spellbooks:spell_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:spell_bar"
+    },
+    "irons_spellbooks:spell_wheel": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:spell_wheel"
+    },
+    "keybindbundles:keybind_selection": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "keybindbundles:keybind_selection"
+    },
+    "minecraft:bossbar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:bossbar"
+    },
+    "minecraft:chat": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "UP"
+      },
+      "sync": "minecraft:chat"
+    },
+    "minecraft:effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:effects"
+    },
+    "minecraft:hotbar": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:hotbar"
+    },
+    "minecraft:other": {
+      "displacement": {
+        "x": 0,
+        "y": 15
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "minecraft:other"
+    },
+    "minecraft:players": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:players"
+    },
+    "minecraft:sidebar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "NONE"
+      },
+      "sync": "minecraft:sidebar"
+    },
+    "minecraft:subtitles": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "UP"
+      },
+      "sync": "minecraft:subtitles"
+    },
+    "minecraft:toasts": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:toasts"
+    },
+    "naturescompass:natures_compass": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "naturescompass:natures_compass"
+    },
+    "nuggets:in_world_tooltip": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "nuggets:in_world_tooltip"
+    },
+    "overflowingbars:toughness_level": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "overflowingbars:toughness_level"
+    },
+    "parcool:hud.stamina": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "parcool:hud.stamina"
+    },
+    "patchouli:book_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "patchouli:book_overlay"
+    },
+    "patchouli:multiblock_progress": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "patchouli:multiblock_progress"
+    },
+    "relics:active_abilities": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "relics:active_abilities"
+    },
+    "relics:info_tile": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "relics:info_tile"
+    },
+    "relics:leafy_ring_hide": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "relics:leafy_ring_hide"
+    },
+    "relics:phantom_boot_bridge": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "relics:phantom_boot_bridge"
+    },
+    "simpleclouds:simple_clouds_debug": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "simpleclouds:simple_clouds_debug"
+    },
+    "undergarden:brittleness_armor": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "undergarden:brittleness_armor"
+    },
+    "undergarden:carved_gloomgourd_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "undergarden:carved_gloomgourd_overlay"
+    },
+    "undergarden:dweller_xp_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "undergarden:dweller_xp_bar"
+    },
+    "undergarden:undergarden_portal_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "undergarden:undergarden_portal_overlay"
+    },
+    "undergarden:utheric_infection_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "undergarden:utheric_infection_bar"
+    },
+    "undergarden:utheric_infection_vignette": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "undergarden:utheric_infection_vignette"
+    },
+    "xaerohud:hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "xaerohud:hud"
+    },
+    "xaeroworldmap:crosshair_message": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "xaeroworldmap:crosshair_message"
     }
   },
-  "resources": {
+  "resource": {
     "texture": "AUTO"
   }
 }

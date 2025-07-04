@@ -24,7 +24,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:12
+renderDistance:16
 simulationDistance:24
 screenEffectScale:0.5
 soundDevice:""
@@ -50,7 +50,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:true
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","builtin/aether_tooltips","moonlight:mods_dynamic_assets","builtin/overrides/deep_aether_emissivity","builtin/overrides/deep_aether_additional_assets","continuity:default","continuity:glass_pane_culling_fix","mod/natures_spirit:resourcepacks/emissive_ores_compatibility","barometry:shader_patch","file/better_clouds","mod/subtle_effects:resourcepacks/biome_color_water_particles","mod/natures_spirit:resourcepacks/plank_consistency","file/default_core","file/Aether Regenerated v1.2.1.zip","file/fresh_core","file/item_core","file/Theone\u0027s Eating Animation Pack v1.01.zip","file/Modpack GUI resources","file/Fancy Boss Bars v0.1.1.zip","mod/seamless:resourcepacks/default_seamless","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/DetailedAnimationsReworked - V1.15.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","builtin/overrides/deep_aether_emissivity","moonlight:mods_dynamic_assets","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/default_core.zip","mod/natures_spirit:resourcepacks/plank_consistency","file/waystones_1.21.1.zip","file/Violets-Water-1.1.0.zip","file/item_core.zip","file/Theone\u0027s Eating Animation Pack v1.01.zip","file/fresh_core.zip","file/DetailedAnimationsReworked - V1.15.zip","file/Modpack GUI resources.zip","file/Fancy Boss Bars v0.1.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -134,6 +134,7 @@ key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.additionalplacements.placement_toggle:key.keyboard.unknown
 key_accessories.key.open_accessories_screen:key.keyboard.i
+key_key.plasmovoice.settings:key.keyboard.v
 key_key.inventoryessentials.single_transfer:key.mouse.left:CONTROL
 key_key.inventoryessentials.screen_bulk_drop:key.mouse.left:SHIFT
 key_placebo.toggleTrails:key.keyboard.keypad.9
@@ -165,13 +166,12 @@ key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_key.cavedust.toggle:key.keyboard.keypad.add
 key_key.cavedust.reload:key.keyboard.keypad.enter
-key_key.frycparry.key_parry:key.mouse.right
-key_key.frycparry.key_dont_parry:key.keyboard.unknown
 key_reacharound.keybinding.toggle:key.keyboard.unknown
 key_net.clayborn.accurateblockplacement.togglevanillaplacement:key.keyboard.unknown
 key_net.clayborn.accurateblockplacement.togglefastbreaking:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.presencefootsteps.toggle:key.keyboard.unknown
+key_key.homebound.useHomeboundStoneKey:key.keyboard.h
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.charm_of_shrinking.toggle:key.keyboard.unknown
 key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
@@ -298,7 +298,7 @@ key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
 key_key.ok_zoomer.increase_zoom:key.keyboard.unknown
 key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
 key_key.ars_additions.open_lectern:key.keyboard.unknown
-key_key.fog.toggle:key.keyboard.f7
+key_key.fog.toggle:key.keyboard.unknown
 key_key.oracle_index.open:key.keyboard.h
 key_key.oracle_index.search:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown

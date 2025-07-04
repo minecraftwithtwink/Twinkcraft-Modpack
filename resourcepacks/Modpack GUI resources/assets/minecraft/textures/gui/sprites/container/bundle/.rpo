@@ -1,4 +1,0 @@
-{
-  "conditions": "!dark_mode",
-  "fallbacks": "assets/minecraft/textures/gui/dark_mode/sprites/container/bundle"
-}

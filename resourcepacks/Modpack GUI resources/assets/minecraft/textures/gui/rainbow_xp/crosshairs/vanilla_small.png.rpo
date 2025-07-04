@@ -1,4 +1,0 @@
-{
-  "condition": "crosshair_style.vanilla_small&!rainbow_xp",
-  "fallback": "assets/minecraft/textures/gui/crosshairs/vanilla_small_rxp.png"
-}
