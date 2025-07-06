@@ -301,7 +301,6 @@ key_key.ars_additions.open_lectern:key.keyboard.unknown
 key_key.fog.toggle:key.keyboard.unknown
 key_key.oracle_index.open:key.keyboard.h
 key_key.oracle_index.search:key.keyboard.unknown
-key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.kubejs.kubedex:key.keyboard.k
 key_ping-wheel.key.ping-location:key.keyboard.t
 key_ping-wheel.key.open-settings:key.keyboard.unknown
@@ -334,10 +333,11 @@ key_key.parcool.openSetting:key.keyboard.p:ALT
 key_key.parcool.QuickTurn:key.keyboard.unknown
 key_key.parcool.Flipping:key.keyboard.unknown
 key_key.parcool.HangDown:key.mouse.right
+key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe
 key_key.entityculling.toggle:key.keyboard.unknown
 key_keybind.invmove.toggleMove:key.keyboard.unknown
 soundCategory_master:0.8057395143487858
-soundCategory_music:0.0
+soundCategory_music:0.7558685446009389
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

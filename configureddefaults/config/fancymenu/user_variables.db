@@ -1,0 +1,8 @@
+type = user_variables
+
+variable {
+  name = title_screen_intro_pressed
+  value = true
+  reset_on_launch = true
+}
+

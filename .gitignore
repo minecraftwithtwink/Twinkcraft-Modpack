@@ -6,6 +6,7 @@ crash-reports/
 debug/
 downloads/
 /data/
+/fancymenu_data/
 kiwipacks/
 /local/
 logs/
@@ -29,3 +30,4 @@ usercache.json
 usernamecache.json
 
 *.disabled
+*.log
