@@ -1,0 +1,15 @@
+{
+  "progressBarType": "SpinningCircle",
+  "logoStyle": "Aspect1to1",
+  "backgroundImage": false,
+  "logoBlend": true,
+  "splashBackgroundColor": "#0",
+  "splashProgressBarColor": "#FFFFFF",
+  "splashProgressFrameColor": "#FFFFFF",
+  "splashProgressBackgroundColor": "#000000",
+  "progressBarBackground": true,
+  "customProgressBarMode": "Linear",
+  "spinningCircleSize": 1,
+  "spinningCircleSpeed": 4,
+  "spinningCircleTrail": 5
+}
