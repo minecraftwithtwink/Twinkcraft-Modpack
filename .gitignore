@@ -1,33 +1,38 @@
-.mixin.out/
+# === Directories ===
 /config/
-controllable_natives/
-crash-reports/
-/defaultconfigs/
-debug/
-downloads/
+/controllable_natives/
+/crash-reports/
 /data/
+/defaultconfigs/
+/debug/
+/downloads/
 /fancymenu_data/
-kiwipacks/
+/infodump
+/kiwipacks/
 /local/
-logs/
-saves/
+/logs/
 /moddata/
-screenshots/
-shaderpacks/
-schematics/
-xaero/
-XaeroWaypoints*/
-mods/.connector/
+/saves/
+/schematics/
+/screenshots/
+/shaderpacks/
+/xaero/
+/XaeroWaypoints*/
+/mods/.connector/
 
-
+# === User & Cache Files ===
 command_history.txt
 fabricloader.log
 patchouli_data.json
 servers.dat
 servers.dat_old
-
 usercache.json
 usernamecache.json
 
+# === Misc Files ===
 *.disabled
+*.ffs_db
 *.log
+
+# === Mixin Output ===
+.mixin.out/

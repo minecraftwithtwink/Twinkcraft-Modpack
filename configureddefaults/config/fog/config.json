@@ -1,7 +1,6 @@
 {
-	"disableMod": false,
+	"enableMod": true,
 	"disabledBiomes": [
-		"*:the_nether",
 		"biomesoplenty:crystalline_chasm",
 		"gardens_of_the_dead:soulblight_forest",
 		"minecraft:nether_wastes",
@@ -10,10 +9,10 @@
 		"minecraft:soul_sand_valley",
 		"minecraft:basalt_deltas"
 	],
-	"disableRaininessEffect": false,
-	"disableUndergroundFogMultiplier": false,
-	"disableBiomeFogColour": true,
-	"disableCloudWhitening": true,
+	"rainFogMultiplier": 0.4,
+	"undergroundFogMultiplier": 0.5,
+	"enableBiomeSpecificFogColors": true,
+	"enableCloudWhitening": false,
 	"initialFogStart": 0.1,
 	"initialFogEnd": 0.85,
 	"raininessTransitionSpeed": 0.005,
@@ -24,10 +23,10 @@
 	"fogColorTransitionSpeed": 0.025,
 	"startMultiplierTransitionSpeed": 0.007,
 	"endMultiplierTransitionSpeed": 0.007,
-	"disableMoonPhaseColorTransition": false,
+	"enableMoonFogColorInfluence": true,
 	"newMoonColor": -16777216,
-	"disableSunsetFog": false,
-	"enableHighAltitudeFog": true,
-	"prioritizePolytoneFogColors": false,
-	"disableWhenIrisActive": false
+	"enableSunFogColorInfluence": true,
+	"enableHighAltitudeFogColorInfluence": true,
+	"prioritizePolytoneFogDefinitions": true,
+	"disableModWhenIrisShaderPackIsEnabled": true
 }
