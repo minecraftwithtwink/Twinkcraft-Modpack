@@ -1,0 +1,79 @@
+["Homebound Configs"]
+	# --- Usage Durations ---
+	"Homeward Bone Use Time" = 2
+	"Bind Home Use Duration" = 2
+
+	# --- Combat & Interrupts ---
+	"Hurt Cooldown Time" = 0
+
+	# --- Cooldown for Binding Home Location ---
+	"Bind Home Cooldown Duration" = 3600
+	"Cant Bind Home On Cooldown" = true
+
+	# --- Dimension & Structure Blacklists ---
+	"Home Dimension Blacklist" = []
+	"Teleport Dimension Blacklist" = []
+	"Teleport Structure Blacklist" = []
+
+	# --- Mob Distance (No Restrictions) ---
+	"Minimum Mob Distance" = 0
+
+	# --- Player Slow While Channeling ---
+	"Channel Slow Percentage" = 1.0
+
+	# --- Homeward Bone ---
+	"Homeward Bone Cooldown" = 0
+	"Homeward Bone Max Distance" = 0
+	"Homeward Bone Dimensional travel allowed" = true
+
+	# --- Hearthwood ---
+	"Hearthwood Cooldown" = 10
+	"Hearthwood Use Time" = 3
+	"Hearthwood Max Distance" = 160
+	"Hearthwood Dimensional travel allowed" = false
+
+	# --- Homeward Gem ---
+	"Homeward Gem Cooldown" = 60
+	"Homeward Gem Use Time" = 12
+	"Homeward Gem Max Distance" = 600
+	"Homeward Gem Dimensional travel allowed" = false
+
+	# --- Homeward Stone ---
+	"Homeward Stone Cooldown" = 60
+	"Homeward Stone Use Time" = 10
+	"Homeward Stone Max Distance" = 0
+	"Homeward Stone Dimensional travel allowed" = false
+
+	# --- Haven Stone ---
+	"Haven Stone Cooldown" = 60
+	"Haven Stone Use Time" = 10
+	"Haven Stone Max Distance" = 0
+	"Haven Stone Dimensional travel allowed" = true
+
+	# --- Dawn Stone ---
+	"Dawn Stone Cooldown" = 50
+	"Dawn Stone Use Time" = 9
+	"Dawn Stone Max Distance" = 0
+	"Dawn Stone Dimensional travel allowed" = true
+
+	# --- Sun Stone ---
+	"Sun Stone Cooldown" = 45
+	"Sun Stone Use Time" = 8
+	"Sun Stone Max Distance" = 0
+	"Sun Stone Dimensional travel allowed" = true
+
+	# --- Dusk Stone ---
+	"Dusk Stone Cooldown" = 60
+	"Dusk Stone Use Time" = 10
+	"Dusk Stone Max Distance" = 0
+	"Dusk Stone Dimensional travel allowed" = true
+	"Dusk Stone Blocks Per Percent Reduced" = 40
+	"Dusk Stone Maximum Distance Reduction Multiplier" = 0.6
+
+	# --- Twilight Stone ---
+	"Twilight Stone Cooldown" = 60
+	"Twilight Stone Use Time" = 10
+	"Twilight Stone Max Distance" = 0
+	"Twilight Stone Dimensional travel allowed" = true
+	"Twilight Stone Blocks Per Percent Reduced" = 40
+	"Twilight Stone Maximum Distance Reduction Multiplier" = 0.7

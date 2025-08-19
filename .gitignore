@@ -1,0 +1,39 @@
+# === Directories ===
+/config/
+/controllable_natives/
+/crash-reports/
+/data/
+/defaultconfigs/
+/debug/
+/downloads/
+/emf/
+/fancymenu_data/
+/infodump/
+/kiwipacks/
+/local/
+/logs/
+/moddata/
+/saves/
+/schematics/
+/screenshots/
+/shaderpacks/
+/xaero/
+/XaeroWaypoints*/
+/mods/.connector/
+
+# === User & Cache Files ===
+command_history.txt
+fabricloader.log
+patchouli_data.json
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+
+# === Misc Files ===
+*.disabled
+*.ffs_db
+*.log
+
+# === Mixin Output ===
+.mixin.out/
