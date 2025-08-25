@@ -1,0 +1,851 @@
+{
+  "config_version": "1.0.21",
+  "config_datetime": "2025-08-22_02-43-07",
+  "general": {
+    "min_structure_distance_from_world_center": 228,
+    "disable_all_structures": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structures": [
+    {
+      "name": "minecraft:mansion",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 56,
+      "flatness_check_threshold": 16,
+      "enable_biome_check": true,
+      "biome_check_distance": 56,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pillager_outpost",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 40,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 24,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "apotheosis:tower_leaf",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 12,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 10,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "apotheosis:tower_main",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 12,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 10,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "apotheosis:tower_sand",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 12,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 10,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "apotheosis:tower_spruce",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 12,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 10,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "burnt:burnt_clearing",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 24,
+      "enable_biome_check": true,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "burnt:soul_clearing",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 24,
+      "enable_biome_check": true,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:abandoned_temple",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 18,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 18,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:bathhouse",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 18,
+      "flatness_check_threshold": 8,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:coliseum",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 36,
+      "flatness_check_threshold": 8,
+      "enable_biome_check": false,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:fishing_hut",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 18,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 16,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:greenwood_pub",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 18,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 20,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:heavenly_challenger",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 114,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:heavenly_conqueror",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 114,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:heavenly_rider",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 114,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:illager_fort",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 38,
+      "flatness_check_threshold": 12,
+      "enable_biome_check": true,
+      "biome_check_distance": 34,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:illager_windmill",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 24,
+      "enable_biome_check": true,
+      "biome_check_distance": 72,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:infested_temple",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 54,
+      "flatness_check_threshold": 42,
+      "enable_biome_check": true,
+      "biome_check_distance": 54,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:jungle_tree_house",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 12,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:kisegi_sanctuary",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 64,
+      "flatness_check_threshold": 42,
+      "enable_biome_check": true,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:lighthouse",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 114,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "#minecraft:is_beach",
+        "#c:is_beach",
+        "#biomeswevegone:beach"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "biomesoplenty:grassland",
+        "biomesoplenty:highland",
+        "biomesoplenty:lavender_field",
+        "biomesoplenty:lush_savanna",
+        "biomesoplenty:orchard",
+        "biomesoplenty:overgrown_greens",
+        "biomesoplenty:pasture",
+        "biomesoplenty:prairie",
+        "biomesoplenty:rocky_shrubland",
+        "biomesoplenty:shrubland",
+        "biomesoplenty:tundra",
+        "natures_spirit:alpine_clearings",
+        "natures_spirit:prairie",
+        "natures_spirit:shrubland",
+        "biomeswevegone:allium_shrubland",
+        "biomeswevegone:amaranth_grassland",
+        "biomeswevegone:coconino_meadow",
+        "biomeswevegone:crimson_tundra",
+        "biomeswevegone:firecracker_chaparral",
+        "biomeswevegone:prairie",
+        "biomeswevegone:pumpkin_valley",
+        "biomeswevegone:rose_fields",
+        "biomeswevegone:temperate_grove"
+      ]
+    },
+    {
+      "name": "dungeons_arise:merchant_campsite",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 58,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:monastery",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 70,
+      "flatness_check_threshold": 16,
+      "enable_biome_check": true,
+      "biome_check_distance": 70,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:mushroom_house",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 24,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 20,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:mushroom_village",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 56,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 48,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:shiraz_palace",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 90,
+      "flatness_check_threshold": 32,
+      "enable_biome_check": true,
+      "biome_check_distance": 86,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:small_blimp",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 114,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:thornborn_towers",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 86,
+      "flatness_check_threshold": 44,
+      "enable_biome_check": true,
+      "biome_check_distance": 84,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "dungeons_arise:wishing_well",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 16,
+      "flatness_check_threshold": 8,
+      "enable_biome_check": true,
+      "biome_check_distance": 12,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "friendsandfoes:iceologer_cabin",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 16,
+      "flatness_check_threshold": 8,
+      "enable_biome_check": true,
+      "biome_check_distance": 18,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "friendsandfoes:illusioner_shack",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 18,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": true,
+      "biome_check_distance": 14,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "mowziesmobs:umvuthana_grove",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 24,
+      "enable_biome_check": true,
+      "biome_check_distance": 12,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:illager_manor",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 96,
+      "flatness_check_threshold": 28,
+      "enable_biome_check": true,
+      "biome_check_distance": 112,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_acacia",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_birch",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_cherry",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_desert",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_jungle",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_mangrove",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_oak",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_snowy",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_spruce",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_swamp",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 48,
+      "flatness_check_threshold": 18,
+      "enable_biome_check": true,
+      "biome_check_distance": 48,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:wild_ruin",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 16,
+      "flatness_check_threshold": 8,
+      "enable_biome_check": true,
+      "biome_check_distance": 12,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "takesapillage:pillager_camp",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 36,
+      "flatness_check_threshold": 28,
+      "enable_biome_check": true,
+      "biome_check_distance": 32,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "biomeswevegone:lush_arch",
+      "salt": 54546651,
+      "frequency": 0.59999996,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 6,
+      "separation": 2
+    }
+  ]
+}

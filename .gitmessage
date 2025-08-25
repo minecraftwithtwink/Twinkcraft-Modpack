@@ -1,0 +1,57 @@
+# -------------------------------
+# Commit Title (one line summary)
+# Example: [Add] New exploration mods
+# -------------------------------
+
+[Category] Short summary
+
+- Detail 1
+- Detail 2
+
+[Todo] Short summary
+- Planned change 1
+- Planned change 2
+
+# -------------------------------
+# Categories you can use:
+# [Add]     New mods, datapacks, configs, features
+# [Fix]     Bug fixes, crashes, incompatibilities, config errors
+# [Change]  Balance tweaks, recipe edits, progression adjustments
+# [Update]  Updated mods/datapacks/configs
+# [Remove]  Removed mods, features, or redundant configs
+# [Misc]    Documentation, repo structure, or non-gameplay stuff
+# [Todo]    Planned fixes, future content, balance changes
+# -------------------------------
+
+# -------------------------------
+# Example1:
+
+# [Add] Expanded tech progression
+# - Added Create: Steam 'n' Rails for train mechanics
+# - Added More Red for extra redstone utilities
+#
+# [Fix] Early-game recipe conflicts
+# - Fixed conflicting wood-to-stick recipes
+# - Adjusted stone tool recipe overlap with Tetra
+#
+# [Todo]
+# - Rebalance ore generation in 1.21
+# - Test compatibility with BetterEnd
+
+# Example1:
+
+# [Update] Major mod updates
+# - Updated Sodium to 0.5.2
+# - Updated Fabric API to 0.99.0
+#
+# [Todo]
+# - Re-test shader compatibility
+# - Possible removal of outdated minimap mod
+# -------------------------------
+
+# -------------------------------
+# Lines starting with '#' are ignored
+# Empty sections can be deleted before commit
+# -------------------------------
+
+
