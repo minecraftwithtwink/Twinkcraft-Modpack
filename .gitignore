@@ -36,5 +36,6 @@ usernamecache.json
 *.ffs_db
 *.log
 
+
 # === Mixin Output ===
 .mixin.out/
