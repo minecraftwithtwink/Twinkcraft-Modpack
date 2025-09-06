@@ -20,7 +20,7 @@
 /xaero/
 /XaeroWaypoints*/
 /mods/.connector/
-
+*cache/
 # === User & Cache Files ===
 options.txt
 command_history.txt
